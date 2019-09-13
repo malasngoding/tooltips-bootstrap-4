@@ -1,0 +1,49 @@
+<!doctype html> 
+<html> 
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.css"> 
+	<title>Tutorial Tooltips Bootstrap 4 - www.malasngoding.com</title> 
+</head> 
+<body> 
+
+	<div class="container">
+
+		<center>
+			<h3>Tutorial Tooltips Bootstrap 4</h3>
+			<h4><a href="https://www.malasngoding.com/tooltips-bootstrap-4/">www.malasngoding.com</a></h4>
+		</center>
+		
+		<br/>
+		<br/>
+
+		<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Halo, Tooltip berada di atas">
+			Tooltip di atas
+		</button>
+		<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Halo, Tooltip berada di kanan">
+			Tooltip di kanan
+		</button>
+		<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Halo, Tooltip berada di bawah">
+			Tooltip di bawah
+		</button>
+		<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Halo, Tooltip berada di kiri">
+			Tooltip di kiri
+		</button>
+
+	</div>
+
+	<script src="assets/js/jquery.js"></script> 
+	<script src="assets/js/popper.js"></script> 
+	<script src="assets/js/bootstrap.js"></script>
+
+	<script>
+
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+
+	</script>
+</body> 
+</html>
